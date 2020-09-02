@@ -1,0 +1,23 @@
+body{
+	background-image: url('../img/wallpaper.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 100%;
+}
+label{
+	padding: 1em;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #939393;
+}
+.logo{
+	display:flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+#chartContainer{
+	height: 300px; 
+	width: 100%; 
+	display: none;
+}
