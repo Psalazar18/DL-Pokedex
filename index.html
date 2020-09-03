@@ -9,11 +9,12 @@
 	<div class="logo">
 		<img src="assets/img/Pokedex_logo.png">
 	</div>
-	<form class="text-center py-5">
+	<form id="form" class="text-center py-5">
 		<label for="nombre">Encuentra tu Pokemón!</label>
 		<input class="mx-3 py-1" type="text" style="text-transform:lowercase" id="nombre">
-		<button id="search" class="btn btn-dark">Buscar</button>
-		<div class="respuesta my-3 display-4"></div>
+		<small class="form-text text-muted">Ingresa un número del 1 al 893 o el nombre de tu Pokemon</small>
+		<button id="search" class="btn btn-dark my-2">Buscar</button>
+		<div id="respuesta" class="my-3 display-4"></div>
 	</form>
 
 	<div id="chartContainer"></div>
